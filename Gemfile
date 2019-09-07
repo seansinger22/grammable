@@ -45,6 +45,9 @@ gem 'popper_js', '~> 1.14.5'
 # Add Bootstrap front-end component library
 gem 'bootstrap', '~> 4.3.1'
 
+# Add Simpleform to easily add forms for user input
+gem 'simple_form'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
