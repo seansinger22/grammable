@@ -44,13 +44,15 @@ gem 'popper_js', '~> 1.14.5'
 
 # Add Bootstrap front-end component library
 gem 'bootstrap', '~> 4.3.1'
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
 
 # Add Simpleform to easily add forms for user input
 gem 'simple_form'
 
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.3.3'
-end
+# Add Devise for user authentication
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
