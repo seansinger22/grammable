@@ -54,6 +54,15 @@ gem 'simple_form'
 # Add Devise for user authentication
 gem 'devise'
 
+# Add Carrierwave to upload images
+gem 'carrierwave', '~> 2.0'
+
+# Add Figrao to hide credentials
+gem 'figaro', '~> 1.0.0'
+
+# Add fog-aws so AWS can talk with carrierwave
+gem 'fog-aws'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
