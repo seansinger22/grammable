@@ -55,7 +55,7 @@ gem 'simple_form'
 gem 'devise'
 
 # Add Carrierwave to upload images
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 
 # Add Figrao to hide credentials
 gem 'figaro', '~> 1.0.0'
